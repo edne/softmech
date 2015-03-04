@@ -38,5 +38,5 @@ hm.KeyUp = handle_event_up
 
 try:
     hm.run()
-except:
+except KeyboardInterrupt:
     print("\nClick clack! Bye!")
